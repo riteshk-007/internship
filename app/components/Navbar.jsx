@@ -5,6 +5,7 @@ import { RiMenu3Fill } from "react-icons/ri";
 import { FaAngleDown } from "react-icons/fa";
 import { CgClose } from "react-icons/cg";
 import Link from "next/link";
+import Button from "./Button";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -43,10 +44,7 @@ const Navbar = () => {
             <Image src="/logo.svg" alt="Logo" width={90} height={90} />
           </Link>
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-            <button className="inline-flex text-sm py-2 text-white animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium  transition-colors hover:shadow-lg">
-              Get Started
-            </button>
-
+            <Button text="Get Started" />
             <button
               onClick={() => setIsOpen(!isOpen)}
               type="button"
@@ -90,7 +88,7 @@ const Navbar = () => {
                   >
                     Services
                     <FaAngleDown
-                      className={`inline-block w-4 h-4 ml-1 text-gray-500 dark:text-gray-400 ${
+                      className={`inline-block w-4 h-4 ml-1  text-gray-500 dark:text-gray-400 ${
                         isDropdownOpen
                           ? "transform rotate-180 transition-all duration-150"
                           : ""
@@ -102,9 +100,9 @@ const Navbar = () => {
                     <div
                       onMouseEnter={() => setIsDropdownOpen(true)}
                       onMouseLeave={() => setIsDropdownOpen(false)}
-                      className="z-10 absolute md:left-1/2 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
+                      className="z-50 absolute md:left-1/2 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
                     >
-                      <ul className="py-2 text-sm text-gray-700 dark:text-gray-400">
+                      <ul className="py-2   text-sm text-gray-700 dark:text-gray-400">
                         <li>
                           <Link
                             href="/"
