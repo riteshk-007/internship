@@ -32,7 +32,7 @@ const Navbar = () => {
       <nav
         className={`bg-white dark:bg-gray-900 z-20 start-0 border-b border-gray-200 dark:border-gray-600 shadow md:inset-x-0 md:border-t ${
           isSticky
-            ? "sticky top-0 md:translate-y-3 md:w-3/4 mx-auto md:rounded-full md:shadow-md z-20 transition-all duration-300"
+            ? "sticky top-0 md:translate-y-3 md:w-3/4 lg:w-4/5 mx-auto md:rounded-full md:shadow-md z-20 transition-all duration-300"
             : "w-full z-20 "
         }`}
       >
