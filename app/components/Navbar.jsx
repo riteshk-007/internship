@@ -3,7 +3,6 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import { RiMenu3Fill } from "react-icons/ri";
 import { FaAngleDown } from "react-icons/fa";
-import { Button } from "@/components/ui/button";
 import { CgClose } from "react-icons/cg";
 import Link from "next/link";
 
@@ -44,7 +43,10 @@ const Navbar = () => {
             <Image src="/logo.svg" alt="Logo" width={90} height={90} />
           </Link>
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-            <Button variant="default">Get Started</Button>
+            <button className="inline-flex text-sm py-2 text-white animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium  transition-colors hover:shadow-lg">
+              Get Started
+            </button>
+
             <button
               onClick={() => setIsOpen(!isOpen)}
               type="button"
