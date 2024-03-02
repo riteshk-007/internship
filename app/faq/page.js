@@ -10,7 +10,7 @@ const Faq = () => {
     <div
       className="w-full h-screen p-5 text-white flex flex-col items-center justify-center"
       style={{
-        background: "radial-gradient(circle, #111 75%, black 100%)",
+        background: "radial-gradient(circle, #111 80%, black 100%)",
       }}
     >
       <h1 className="text-4xl font-bold mb-5 text-center">
