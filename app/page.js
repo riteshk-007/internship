@@ -8,6 +8,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import Mail from "./components/Mail";
 import OurTeam from "./components/Team";
 import BrandsThatChooseSnippet from "./components/Brand";
+import ShortFormVideoEditing from "./components/ExpertiseItem";
 
 export default function Home() {
   return (
@@ -21,6 +22,9 @@ export default function Home() {
           background: "radial-gradient(circle, #111 75%, black 100%)",
         }}
       >
+        <div className=" w-full flex md:flex-row flex-col items-center justify-center ">
+          <ShortFormVideoEditing />
+        </div>
         <div className=" w-full flex md:flex-row flex-col items-center justify-center ">
           <BrandsThatChooseSnippet />
         </div>
