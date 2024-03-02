@@ -9,12 +9,23 @@ import Mail from "./components/Mail";
 import OurTeam from "./components/Team";
 import BrandsThatChooseSnippet from "./components/Brand";
 import ShortFormVideoEditing from "./components/ExpertiseItem";
+import ImpactInMotion from "./components/ImpactInMotion";
 
 export default function Home() {
   return (
     <div className="flex flex-col">
       <Hero />
-      <Impact />
+
+      <div
+        className="w-full p-5 text-white flex flex-col items-center justify-center"
+        style={{
+          background: "radial-gradient(circle, #111 75%, black 100%)",
+        }}
+      >
+        <div className=" w-full flex md:flex-row flex-col items-center justify-center p-3">
+          <ImpactInMotion />
+        </div>
+      </div>
 
       <div
         className="w-full p-5 text-white flex flex-col items-center justify-center"
