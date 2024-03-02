@@ -1,7 +1,6 @@
 import Link from "next/link";
 import FaqCard from "./components/Faq";
 import Hero from "./components/Hero";
-import Impact from "./components/Impact";
 import Button from "./components/Button";
 import PriceCard from "./components/PriceCard";
 import { FaArrowRightLong } from "react-icons/fa6";
@@ -15,24 +14,15 @@ export default function Home() {
   return (
     <div className="flex flex-col">
       <Hero />
-
       <div
         className="w-full p-5 text-white flex flex-col items-center justify-center"
         style={{
           background: "radial-gradient(circle, #111 75%, black 100%)",
         }}
       >
-        <div className=" w-full flex md:flex-row flex-col items-center justify-center p-3">
+        <div className=" w-full flex md:flex-row flex-col items-center justify-center ">
           <ImpactInMotion />
         </div>
-      </div>
-
-      <div
-        className="w-full p-5 text-white flex flex-col items-center justify-center"
-        style={{
-          background: "radial-gradient(circle, #111 75%, black 100%)",
-        }}
-      >
         <div className=" w-full flex md:flex-row flex-col items-center justify-center ">
           <ShortFormVideoEditing />
         </div>
@@ -57,7 +47,7 @@ export default function Home() {
         <PriceCard />
         <Link
           href={"/price"}
-          className="mt-4 text-yellow-500 hover:text-yellow-700 flex items-center justify-center space-x-2 cursor-pointer"
+          className="mt-4 text-orange-500 hover:text-orange-700 flex items-center justify-center space-x-2 cursor-pointer"
         >
           <p>Go to Price Page</p>
           <FaArrowRightLong />

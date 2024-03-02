@@ -19,7 +19,7 @@ const Footer = () => {
             <li>
               <Link
                 href="/"
-                className="text-yellow-500 hover:underline transition duration-200"
+                className="text-orange-500 hover:underline transition duration-200"
               >
                 About Us
               </Link>
@@ -27,7 +27,7 @@ const Footer = () => {
             <li>
               <Link
                 href="/"
-                className="text-yellow-500 hover:underline transition duration-200"
+                className="text-orange-500 hover:underline transition duration-200"
               >
                 Contact Us
               </Link>
@@ -35,7 +35,7 @@ const Footer = () => {
             <li>
               <Link
                 href="/"
-                className="text-yellow-500 hover:underline transition duration-200"
+                className="text-orange-500 hover:underline transition duration-200"
               >
                 Get a Free E-book
               </Link>
@@ -43,7 +43,7 @@ const Footer = () => {
             <li>
               <Link
                 href="/"
-                className="text-yellow-500 hover:underline transition duration-200"
+                className="text-orange-500 hover:underline transition duration-200"
               >
                 FAQ
               </Link>
