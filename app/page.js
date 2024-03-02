@@ -7,6 +7,7 @@ import PriceCard from "./components/PriceCard";
 import { FaArrowRightLong } from "react-icons/fa6";
 import Mail from "./components/Mail";
 import OurTeam from "./components/Team";
+import BrandsThatChooseSnippet from "./components/Brand";
 
 export default function Home() {
   return (
@@ -20,6 +21,9 @@ export default function Home() {
           background: "radial-gradient(circle, #111 75%, black 100%)",
         }}
       >
+        <div className=" w-full flex md:flex-row flex-col items-center justify-center ">
+          <BrandsThatChooseSnippet />
+        </div>
         <div className=" w-full flex md:flex-row flex-col items-center justify-center p-3">
           <OurTeam />
         </div>
