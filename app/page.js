@@ -6,12 +6,25 @@ import Button from "./components/Button";
 import PriceCard from "./components/PriceCard";
 import { FaArrowRightLong } from "react-icons/fa6";
 import Mail from "./components/Mail";
+import OurTeam from "./components/Team";
 
 export default function Home() {
   return (
     <div className="flex flex-col">
       <Hero />
       <Impact />
+
+      <div
+        className="w-full p-5 text-white flex flex-col items-center justify-center"
+        style={{
+          background: "radial-gradient(circle, #111 75%, black 100%)",
+        }}
+      >
+        <div className=" w-full flex md:flex-row flex-col items-center justify-center p-3">
+          <OurTeam />
+        </div>
+      </div>
+
       <div
         className="w-full p-10 text-white flex flex-col items-center justify-center"
         style={{
