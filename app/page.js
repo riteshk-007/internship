@@ -9,6 +9,7 @@ import OurTeam from "./components/Team";
 import BrandsThatChooseSnippet from "./components/Brand";
 import ShortFormVideoEditing from "./components/ExpertiseItem";
 import ImpactInMotion from "./components/ImpactInMotion";
+import StrategySessionIdealFor from "./components/IdealForItem";
 
 export default function Home() {
   return (
@@ -31,6 +32,9 @@ export default function Home() {
         </div>
         <div className=" w-full flex md:flex-row flex-col items-center justify-center p-3">
           <OurTeam />
+        </div>
+        <div className=" w-full flex md:flex-row flex-col items-center justify-center p-3">
+          <StrategySessionIdealFor />
         </div>
       </div>
 
