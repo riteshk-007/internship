@@ -8,7 +8,7 @@ export const metadata = {
 const Faq = () => {
   return (
     <div
-      className="w-full h-screen p-5 text-white flex flex-col items-center justify-center"
+      className="w-full h-auto p-5 md:p-10 text-white flex flex-col items-center justify-center"
       style={{
         background: "radial-gradient(circle, #111 80%, black 100%)",
       }}
