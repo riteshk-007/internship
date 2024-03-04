@@ -26,7 +26,7 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                href="/contect"
+                href="/contact"
                 className="text-[#FF1493] hover:underline transition duration-200"
               >
                 Contact Us
