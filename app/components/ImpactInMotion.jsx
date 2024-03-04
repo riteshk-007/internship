@@ -1,4 +1,6 @@
 import React from "react";
+import { FaUsers, FaChartLine } from "react-icons/fa";
+import { SiSnapcraft } from "react-icons/si";
 
 const ImpactInMotion = () => {
   return (
@@ -10,14 +12,25 @@ const ImpactInMotion = () => {
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="bg-gray-800 p-4 rounded-lg shadow-lg text-center">
+            <span className="bg-[#ff1493] my-1 p-4 rounded-full inline-block">
+              <FaUsers className="text-4xl text-white" />
+            </span>
+
             <p className="text-2xl font-semibold">CLIENTS THRILLED</p>
             <p className="text-4xl font-bold mt-2">100+</p>
           </div>
           <div className="bg-gray-800 p-4 rounded-lg shadow-lg text-center">
+            <span className="bg-[#ff1493] my-1 p-4 rounded-full inline-block">
+              <FaChartLine className="text-4xl text-white" />
+            </span>
+
             <p className="text-2xl font-semibold">TOTAL VIEWS ACHIEVED</p>
             <p className="text-4xl font-bold mt-2">500M+</p>
           </div>
           <div className="bg-gray-800 p-4 rounded-lg shadow-lg text-center">
+            <span className="bg-[#ff1493] my-1 p-4 rounded-full inline-block">
+              <SiSnapcraft className="text-4xl text-white" />
+            </span>
             <p className="text-2xl font-semibold">CREATIVE PIECES CRAFTED</p>
             <p className="text-4xl font-bold mt-2">3000+</p>
           </div>
