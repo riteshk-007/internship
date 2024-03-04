@@ -7,7 +7,7 @@ const BrandSnippet = ({ name, igId }) => (
       href={`https://www.instagram.com/${igId}`}
       target="_blank"
       rel="noopener noreferrer"
-      className="text-orange-500 mt-2 hover:underline"
+      className="text-white-500 mt-2 hover:underline"
     >
       View on Instagram
     </a>
