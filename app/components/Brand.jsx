@@ -7,7 +7,7 @@ const BrandSnippet = ({ name, igId }) => (
       href={`https://www.instagram.com/${igId}`}
       target="_blank"
       rel="noopener noreferrer"
-      className="text-white-500 mt-2 hover:underline"
+      className="text-[#FF1493] mt-2 hover:underline"
     >
       View on Instagram
     </a>
@@ -23,9 +23,9 @@ const BrandsThatChooseSnippet = () => {
   ];
 
   return (
-    <div className=" py-12">
+    <div className="py-12">
       <h2 className="text-2xl font-bold mb-4">Brands That Choose Us</h2>
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="w-full sm:w-full md:w-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {brands.map((brand) => (
           <BrandSnippet key={brand.igId} name={brand.name} igId={brand.igId} />
         ))}

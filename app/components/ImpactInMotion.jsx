@@ -2,7 +2,7 @@ import React from "react";
 
 const ImpactInMotion = () => {
   return (
-    <div className=" py-12">
+    <div className="w-full py-12">
       <div className="container mx-auto text-white">
         <h1 className="text-3xl font-semibold mb-6">IMPACT IN MOTION</h1>
         <p className="text-gray-400 mb-8">
@@ -26,7 +26,7 @@ const ImpactInMotion = () => {
           Our mantra: Crafting bespoke content that captivates and converts.
           Quality over quantity. Let&apos;s talk!
         </p>
-        <button className="bg-orange-500 text-white px-4 py-2 rounded-lg mt-4 hover:bg-orange-600">
+        <button className="bg-[#ff1491c7] text-white px-4 py-2 rounded-lg mt-4 hover:bg-[#FF1493]">
           Book Your Complimentary Video Strategy Call Today
         </button>
       </div>

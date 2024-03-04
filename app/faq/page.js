@@ -19,7 +19,7 @@ const Faq = () => {
       <p className="text-lg mb-5 text-center">
         Here are some of the most frequently asked questions.
       </p>
-      <div className="md:w-1/2 w-full flex items-center justify-center p-3">
+      <div className="xl:w-1/2 w-full flex items-center justify-center p-3">
         <FaqCard />
       </div>
     </div>

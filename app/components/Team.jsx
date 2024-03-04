@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 
 const TeamMember = ({ name, title, image }) => (
-  <div className="bg-gray-900 p-6 rounded-lg shadow-lg text-white">
+  <div className="bg-gray-900 p-6 rounded-lg shadow-lg text-white hover:shadow-2xl transition duration-300 ease-in-out transform hover:scale-105">
     <Image
       width={200}
       height={200}
@@ -12,7 +12,7 @@ const TeamMember = ({ name, title, image }) => (
     />
     <h3 className="text-xl font-semibold mt-5">{name}</h3>
     <p className="text-gray-400">{title}</p>
-    <a href="#" className="text-orange-500 mt-2 hover:underline">
+    <a href="#" className="text-[#FF1493] mt-2 hover:underline">
       View Bio
     </a>
   </div>

@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const PriceCard = () => {
   return (
-    <div className="w-full sm:w-4/5 mx-auto bg-gradient-to-l from-neutral-800 to-neutral-900 p-6 rounded-lg  transform transition duration-500 ease-in-out shadow-white hover:-translate-y-1 hover:shadow-2xl">
+    <div className="w-full 2xl:w-4/5 mx-auto bg-gradient-to-l from-neutral-800 to-neutral-900 p-6 rounded-lg  transform transition duration-500 ease-in-out shadow-white hover:-translate-y-1 hover:shadow-2xl">
       <h2 className="text-sm sm:text-lg font-semibold mb-4 md:text-2xl">
         Basic Pricing
       </h2>

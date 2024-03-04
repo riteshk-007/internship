@@ -18,32 +18,32 @@ const Footer = () => {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/"
-                className="text-orange-500 hover:underline transition duration-200"
+                href="/price"
+                className="text-[#FF1493] hover:underline transition duration-200"
               >
-                About Us
+                Price
               </Link>
             </li>
             <li>
               <Link
-                href="/"
-                className="text-orange-500 hover:underline transition duration-200"
+                href="/contect"
+                className="text-[#FF1493] hover:underline transition duration-200"
               >
                 Contact Us
               </Link>
             </li>
             <li>
               <Link
-                href="/"
-                className="text-orange-500 hover:underline transition duration-200"
+                href="/blogs"
+                className="text-[#FF1493] hover:underline transition duration-200"
               >
-                Get a Free E-book
+                Blogs
               </Link>
             </li>
             <li>
               <Link
-                href="/"
-                className="text-orange-500 hover:underline transition duration-200"
+                href="/faq"
+                className="text-[#FF1493] hover:underline transition duration-200"
               >
                 FAQ
               </Link>

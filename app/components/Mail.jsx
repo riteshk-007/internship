@@ -6,7 +6,7 @@ import { useState } from "react";
 const Mail = () => {
   const [email, setEmail] = useState("");
   return (
-    <div className="md:p-5 space-y-5 flex flex-col md:flex-row w-full items-center justify-center">
+    <div className="md:p-5 space-y-5 flex flex-col xl:flex-row w-full items-center justify-center">
       <div className="flex flex-col space-y-2 items-center justify-center">
         <h2 className="text-2xl font-bold text-center">
           READY TO MAKE YOUR CONTENT A SENSATION?
@@ -22,7 +22,7 @@ const Mail = () => {
         <Input
           type="email"
           placeholder="Enter your email"
-          className="p-2 border border-gray-300 w-full md:w-1/2 rounded text-black"
+          className="p-2 border border-gray-300 w-full md:w-1/2 rounded text-black bg-gray-200"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required

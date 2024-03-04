@@ -1,7 +1,7 @@
 import React from "react";
 
 const ExpertiseItem = ({ title }) => (
-  <div className="bg-gray-800 p-4 rounded-lg shadow-lg text-white mb-4">
+  <div className="bg-gray-800 p-4 rounded-lg shadow-lg text-white mb-4 text-left hover:shadow-2xl transition duration-300 ease-in-out transform hover:scale-105">
     {title}
   </div>
 );
@@ -24,7 +24,7 @@ const ShortFormVideoEditing = () => {
           video content that speaks volumes in mere seconds and shows clear ROI,
           welcome to Snippet.
         </p>
-        <button className="bg-orange-500 text-white px-4 py-2 rounded-lg hover:bg-orange-600">
+        <button className="bg-[#ff1491c7] text-white px-4 py-2 rounded-lg hover:bg-[#FF1493]">
           Elevate Your Brand&apos;s Story
         </button>
         <p className="text-gray-400 mt-4">

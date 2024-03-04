@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <div className="h-screen w-full bg-black relative flex flex-col md:flex-row items-center justify-center antialiased">
+    <div className="h-auto md:h-screen w-full bg-black relative flex flex-col lg:flex-row items-center justify-center antialiased p-5">
       <div className="mx-auto p-4 mt-5 md:mt-0 flex-1">
         <h1 className="relative z-10 text-xl md:text-5xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600 text-center font-sans font-bold leading-snug tracking-wide">
           Dominate the Short-Form Video Scene with Snippet
@@ -28,7 +28,7 @@ const Hero = () => {
         </p>
       </div>
 
-      <div className="flex-1 flex items-center justify-center">
+      <div className="flex-1 flex items-center justify-center p-10 ">
         <Image
           src={"/img.gif"}
           alt="music"

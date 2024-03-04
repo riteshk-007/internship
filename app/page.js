@@ -51,7 +51,7 @@ export default function Home() {
         <PriceCard />
         <Link
           href={"/price"}
-          className="mt-4 text-orange-500 hover:text-orange-700 flex items-center justify-center space-x-2 cursor-pointer"
+          className="mt-4 text-[#FF1493] hover:underline flex items-center justify-center space-x-2 cursor-pointer"
         >
           <p>Go to Price Page</p>
           <FaArrowRightLong />
@@ -66,7 +66,7 @@ export default function Home() {
         <p className="text-4xl font-bold my-5 text-center">
           All the answers you&apos;re looking for
         </p>
-        <div className="md:w-1/2 w-full flex items-center justify-center p-3">
+        <div className="xl:w-1/2 w-full flex items-center justify-center p-3">
           <FaqCard numQuestions={4} />
         </div>
 
