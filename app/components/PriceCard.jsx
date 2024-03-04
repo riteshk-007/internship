@@ -122,7 +122,13 @@ const PriceCard = () => {
           <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl my-2 text-white">
             contact us for more details
           </p>
-          <Button text={"Contact Now"} />
+          <a
+            href="https://wa.me/+917425081690"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button text={"Contact Now"} />
+          </a>
         </div>
       </div>
     </div>
