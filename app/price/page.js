@@ -1,4 +1,5 @@
 import PriceCard from "../components/PriceCard";
+import TestimonalCards from "../components/TestimonalCards";
 
 export const metadata = {
   title: "Pricing",
@@ -37,7 +38,7 @@ const Price = () => {
       </div>
       <div className="w-full items-center justify-center my-2 flex-col space-y-5">
         <PriceCard />
-        <PriceCard />
+        <TestimonalCards />
       </div>
     </div>
   );
