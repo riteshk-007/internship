@@ -47,8 +47,10 @@ export default function Home() {
         <h1 className="mb-4 text-2xl text-center">
           Welcome to Our Pricing Page
         </h1>
-
-        <PriceCard />
+        <p className="text-center">
+          Our pricing is simple and transparent. We have a plan for every
+          budget.
+        </p>
         <Link
           href={"/price"}
           className="mt-4 text-[#FF1493] hover:underline flex items-center justify-center space-x-2 cursor-pointer"
