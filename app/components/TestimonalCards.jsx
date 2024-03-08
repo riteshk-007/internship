@@ -8,7 +8,7 @@ const TestimonalCards = () => {
       <InfiniteMovingCards
         items={testimonials}
         direction="right"
-        speed="normal"
+        speed="slow"
       />
     </div>
   );

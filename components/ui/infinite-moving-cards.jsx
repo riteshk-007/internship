@@ -2,6 +2,7 @@
 
 import { cn } from "@/lib/utils";
 import React, { useEffect, useState } from "react";
+import { FaStar } from "react-icons/fa6";
 
 export const InfiniteMovingCards = ({
   items,
@@ -99,6 +100,13 @@ export const InfiniteMovingCards = ({
                   </span>
                   <span className=" text-sm leading-[1.6] text-gray-400 font-normal">
                     {item.title}
+                  </span>
+                  <span className=" text-sm leading-[1.6] flex gap-1 text-yellow-400 font-normal">
+                    <FaStar />
+                    <FaStar />
+                    <FaStar />
+                    <FaStar />
+                    <FaStar />
                   </span>
                 </span>
               </div>
