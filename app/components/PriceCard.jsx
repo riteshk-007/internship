@@ -1,4 +1,5 @@
 import { IoMdArrowDropright } from "react-icons/io";
+import SecondButton from "./secondButton";
 const PriceCard = () => {
   return (
     <section>
@@ -37,10 +38,11 @@ const PriceCard = () => {
               <IoMdArrowDropright fontSize={19} className="text-green-500" />{" "}
               Optimized for TikTok and Instagram Reels
             </p>
-            <p className="flex  items-center justify-start text-sm gap-2">
-              <IoMdArrowDropright fontSize={19} className="text-green-500" />{" "}
-              Get A Quote (Special Price: $99 for service)
-            </p>
+            <a href="https://calendly.com/auditmeet/30min?month=2024-03">
+              <div className="flex items-center justify-center">
+                <SecondButton text="Get A Quote (Special Price: $99 for service)" />
+              </div>
+            </a>
           </div>
 
           <div className="hover:scale-105 transition-all duration-300 text-white  rounded-lg shadow-lg border-2 border-sky-800 flex flex-col gap-10 p-5">
@@ -67,10 +69,11 @@ const PriceCard = () => {
               <IoMdArrowDropright fontSize={19} className="text-green-500" />{" "}
               Bi-weekly analytics review
             </p>
-            <p className="flex  items-center justify-start text-sm gap-2">
-              <IoMdArrowDropright fontSize={19} className="text-green-500" />{" "}
-              Get A Quote
-            </p>
+            <a href="https://calendly.com/auditmeet/30min?month=2024-03">
+              <div className="flex items-center justify-center">
+                <SecondButton text="Get A Quote" />
+              </div>
+            </a>
           </div>
 
           <div className="hover:scale-105 transition-all duration-300 text-white  rounded-lg shadow-lg border-2 border-sky-800 flex flex-col gap-10 p-5">
@@ -97,10 +100,11 @@ const PriceCard = () => {
               <IoMdArrowDropright fontSize={19} className="text-green-500" />{" "}
               Weekly analytics and strategy
             </p>
-            <p className="flex  items-center justify-start text-sm gap-2">
-              <IoMdArrowDropright fontSize={19} className="text-green-500" />{" "}
-              Get A Quote
-            </p>
+            <a href="https://calendly.com/auditmeet/30min?month=2024-03">
+              <div className="flex items-center justify-center">
+                <SecondButton text="Get A Quote" />
+              </div>
+            </a>
           </div>
         </div>
       </div>

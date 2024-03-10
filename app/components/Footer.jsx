@@ -77,7 +77,9 @@ export default function Footer() {
 
         {/* Right section */}
         <div className="text-center w-full sm:w-auto">
-          <p className="font-semibold text-sm text-gray-400">NEWSLETTER</p>
+          <p className="font-semibold text-sm text-gray-400 my-2">
+            Book Your Session With Conture
+          </p>
           {showSuccess ? (
             <div className="w-full mx-auto flex items-center justify-center p-2">
               <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative">
@@ -108,7 +110,7 @@ export default function Footer() {
                 className="border border-gray-700 w-full md:w-1/2"
                 variant="default"
                 type="submit"
-                text={state.submitting ? "SUBSCRIBING..." : "SUBSCRIBE"}
+                text={state.submitting ? "Booking..." : "Book Session"}
               />
             </form>
           )}
