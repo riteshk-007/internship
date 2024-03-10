@@ -9,7 +9,7 @@ const Footer = () => {
           href={"/"}
           className="mb-4 md:mb-0 mx-auto md:mx-0  flex items-center justify-center"
         >
-          <Image width={80} height={80} src="logo.svg" alt="Company Logo" />
+          <Image width={80} height={80} src="/logo.png" alt="Company Logo" />
         </Link>
         <div className="mb-10 mx-auto md:mx-0 md:w-auto w-full text-center md:text-start">
           <p>Email: info@conture.com</p>
