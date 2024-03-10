@@ -11,6 +11,7 @@ import {
 import { useForm, ValidationError } from "@formspree/react";
 import { useState, useEffect } from "react";
 import Button from "./Button";
+import { CgYoutube } from "react-icons/cg";
 
 export default function Footer() {
   const [state, handleSubmit] = useForm("mayrjgkz");
@@ -25,7 +26,7 @@ export default function Footer() {
   }, [state.succeeded]);
 
   return (
-    <footer className="bg-gray-900 text-white py-8">
+    <footer className="bg-black text-white py-8">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-wrap justify-between items-center">
         {/* Left section */}
         <div className="flex items-center w-full sm:w-auto mb-8 sm:mb-0">
@@ -126,7 +127,7 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="block  text-white p-1 transition-colors duration-300 ease-in-out"
           >
-            <FaFacebook className="w-6 h-6" />
+            <FaFacebook size={18} />
           </a>
           <a
             href="https://www.linkedin.com/company/conture-media/"
@@ -134,7 +135,7 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="block  text-white p-1 transition-colors duration-300 ease-in-out"
           >
-            <FaLinkedin className="w-6 h-6" />
+            <FaLinkedin size={18} />
           </a>
           <a
             href="https://wa.me/+917425081690"
@@ -142,7 +143,7 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="block  text-white p-1 transition-colors duration-300 ease-in-out"
           >
-            <FaWhatsapp className="w-6 h-6" />
+            <FaWhatsapp size={18} />
           </a>
           <a
             href="https://www.instagram.com/conture.ai"
@@ -150,7 +151,15 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="block  text-white p-1 transition-colors duration-300 ease-in-out"
           >
-            <FaInstagram className="w-6 h-6" />
+            <FaInstagram size={18} />
+          </a>
+          <a
+            href="https://www.youtube.com/watch?v=0M_7Ugj4lEg"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block  text-white p-1 transition-colors duration-300 ease-in-out"
+          >
+            <CgYoutube size={18} />
           </a>
         </div>
       </div>

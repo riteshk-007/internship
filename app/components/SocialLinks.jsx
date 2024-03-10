@@ -1,3 +1,4 @@
+import { Youtube } from "lucide-react";
 import { FaWhatsapp, FaInstagram } from "react-icons/fa";
 import { FaFacebook, FaLinkedin } from "react-icons/fa6";
 
@@ -10,7 +11,15 @@ const SocialLinks = () => {
         rel="noopener noreferrer"
         className="block border-2 border-gray-400 text-white rounded-full p-1 hover:bg-green-400 hover:text-gray-100 transition-colors duration-300 ease-in-out"
       >
-        <FaWhatsapp className="w-6 h-6" />
+        <FaWhatsapp size={16} />
+      </a>
+      <a
+        href="https://www.youtube.com/watch?v=0M_7Ugj4lEg"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="block border-2 border-gray-400 text-white rounded-full p-1 hover:bg-red-700 hover:text-gray-100 transition-colors duration-300 ease-in-out"
+      >
+        <Youtube size={16} />
       </a>
       <a
         href="https://www.instagram.com/conture.ai"
@@ -18,7 +27,7 @@ const SocialLinks = () => {
         rel="noopener noreferrer"
         className="block border-2 border-gray-400 text-white rounded-full p-1 hover:bg-pink-700 hover:text-gray-100 transition-colors duration-300 ease-in-out"
       >
-        <FaInstagram className="w-6 h-6" />
+        <FaInstagram size={16} />
       </a>
       <a
         href="https://www.facebook.com/profile.php?id=61556161540988"
@@ -26,7 +35,7 @@ const SocialLinks = () => {
         rel="noopener noreferrer"
         className="block border-2 border-gray-400 text-white rounded-full p-1 hover:bg-blue-800 hover:text-gray-100 transition-colors duration-300 ease-in-out"
       >
-        <FaFacebook className="w-6 h-6" />
+        <FaFacebook size={16} />
       </a>
       <a
         href="https://www.linkedin.com/company/conture-media/"
@@ -34,7 +43,7 @@ const SocialLinks = () => {
         rel="noopener noreferrer"
         className="block border-2 border-gray-400 text-white rounded-full p-1 hover:bg-sky-700 hover:text-gray-100 transition-colors duration-300 ease-in-out"
       >
-        <FaLinkedin className="w-6 h-6" />
+        <FaLinkedin size={16} />
       </a>
     </div>
   );
