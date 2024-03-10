@@ -34,7 +34,7 @@ const Mail = () => {
         <h2 className="text-2xl font-bold text-center">
           READY TO MAKE YOUR CONTENT A SENSATION?
         </h2>
-        <h3 className="text-xl mt-2 text-center">Contact Snippet</h3>
+        <h3 className="text-xl mt-2 text-center">Contact Conture</h3>
         <p className="mt-2 text-center">
           Have a question or want to chat about your video strategy? Our team of
           short-form content experts is ready to help you make a splash in the
@@ -58,7 +58,7 @@ const Mail = () => {
           variant="default"
           type="submit"
         >
-          BOOK YOUR SESSION WITH SNIPPET
+          BOOK YOUR SESSION WITH Conture
         </Button>
       </form>
     </div>

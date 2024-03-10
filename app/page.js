@@ -6,7 +6,7 @@ import PriceCard from "./components/PriceCard";
 import { FaArrowRightLong } from "react-icons/fa6";
 import Mail from "./components/Mail";
 import OurTeam from "./components/Team";
-import BrandsThatChooseSnippet from "./components/Brand";
+import BrandsThatChooseConture from "./components/Brand";
 import ShortFormVideoEditing from "./components/ExpertiseItem";
 import ImpactInMotion from "./components/ImpactInMotion";
 import StrategySessionIdealFor from "./components/IdealForItem";
@@ -28,7 +28,7 @@ export default function Home() {
           <ShortFormVideoEditing />
         </div>
         <div className=" w-full flex md:flex-row flex-col items-center justify-center ">
-          <BrandsThatChooseSnippet />
+          <BrandsThatChooseConture />
         </div>
         <div className=" w-full flex md:flex-row flex-col items-center justify-center p-3">
           <OurTeam />

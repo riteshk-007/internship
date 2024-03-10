@@ -7,10 +7,10 @@ const Hero = () => {
     <div className="h-auto md:h-screen w-full bg-black relative flex flex-col lg:flex-row items-center justify-center antialiased p-5">
       <div className="mx-auto p-4 mt-5 md:mt-0 flex-1">
         <h1 className="relative z-10 text-xl md:text-5xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600 text-center font-sans font-bold leading-snug tracking-wide">
-          Dominate the Short-Form Video Scene with Snippet
+          Dominate the Short-Form Video Scene with Conture
         </h1>
         <p className="text-gray-300 mx-auto my-4 text-xs md:text-xl text-center relative z-10 leading-relaxed tracking-normal">
-          We help Elevate your brand’s digital footprint with Snippet&apos;s
+          We help Elevate your brand’s digital footprint with Conture&apos;s
           expertly crafted short-form video content. Our cutting-edge editing
           techniques ensure your message resonates with a global audience,
           delivering measurable results.
@@ -21,7 +21,7 @@ const Hero = () => {
           media.
         </p>
 
-        <Button text={"Discover the Snippet Difference"} />
+        <Button text={"Discover the Conture Difference"} />
         <p className="text-gray-300 mx-auto my-7 text-xs  text-center relative z-10 leading-relaxed tracking-normal">
           Secure Your Spot at the Forefront of Digital Story telling Book Your
           Complimentary Strategy Session Today

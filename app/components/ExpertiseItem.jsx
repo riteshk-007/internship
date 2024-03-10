@@ -22,7 +22,7 @@ const ShortFormVideoEditing = () => {
         <p className="text-gray-400 mb-8">
           If you want a partner that zeroes in on impactful, scroll-stopping
           video content that speaks volumes in mere seconds and shows clear ROI,
-          welcome to Snippet.
+          welcome to Conture.
         </p>
         <button className="bg-[#ff1491c7] text-white px-4 py-2 rounded-lg hover:bg-[#FF1493]">
           Elevate Your Brand&apos;s Story

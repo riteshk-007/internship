@@ -56,7 +56,7 @@ const Footer = () => {
           <p className="text-gray-400 text-sm cursor-pointer">
             Terms of Service
           </p>
-          <p>Copyrights reserved by Snippet | Conture AI</p>
+          <p>Copyrights reserved by Conture | Conture AI</p>
         </div>
       </div>
     </div>
