@@ -26,7 +26,7 @@ export default function Home() {
         <div className=" w-full flex md:flex-row flex-col items-center justify-center ">
           <ShortFormVideoEditing />
         </div>
-        <div className=" w-full flex md:flex-row flex-col items-center justify-center ">
+        <div className="overflow-hidden w-full flex  items-center justify-center ">
           <BrandsThatChooseConture />
         </div>
         <div className=" w-full flex md:flex-row flex-col items-center justify-center p-3">
