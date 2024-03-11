@@ -2,7 +2,6 @@ import Link from "next/link";
 import FaqCard from "./components/Faq";
 import Hero from "./components/Hero";
 import Button from "./components/Button";
-import PriceCard from "./components/PriceCard";
 import { FaArrowRightLong } from "react-icons/fa6";
 import Mail from "./components/Mail";
 import OurTeam from "./components/Team";

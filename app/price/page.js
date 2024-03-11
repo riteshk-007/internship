@@ -30,10 +30,12 @@ const Price = () => {
           className="text-xs md:text-sm font-normal text-gray-400 my-2 w-full md:w-1/2"
           style={{ fontWeight: "normal" }}
         >
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration in some form, by injected
-          humour, or randomised words which don&apos;t look even slightly
-          believable.
+          Discover expert content marketing strategies with our Specialized
+          Service, creative amplification with our Creators Package, or rapid
+          brand growth with our 8-Week Explosion program. Custom budgets
+          available for unique needs. For unique visions, get a custom budget
+          tailored just for you. Elevate your brand&apos;s story with Conture
+          Media.
         </p>
       </div>
       <div className="w-full items-center justify-center my-2 flex-col space-y-5">

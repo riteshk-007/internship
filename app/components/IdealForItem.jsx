@@ -23,7 +23,9 @@ const StrategySessionIdealFor = () => {
           <IdealForItem description="Leaders looking for a creative agency that will elevate their brand with exceptional video editing craftsmanship." />
         </ul>
         <button className="bg-[#ff1491c7] text-white px-4 py-2 rounded-lg mt-8 hover:bg-[#FF1493]">
-          Book Your Complimentary Video Strategy Call Today
+          <a href="https://calendly.com/auditmeet/30min?month=2024-03">
+            Book Your Complimentary Video Strategy Call Today
+          </a>
         </button>
       </div>
     </div>

@@ -9,7 +9,7 @@ const Mail = () => {
         <p className="mt-2 text-center">
           Have a question or want to chat about your video strategy? Our team of
           short-form content experts is ready to help you make a splash in the
-          digital world. Reach out at info@conture.com.
+          digital world. Reach out at business@conturemedia.com.
         </p>
       </div>
     </div>

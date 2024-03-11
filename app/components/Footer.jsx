@@ -38,12 +38,12 @@ export default function Footer() {
             className=""
           />
           <div className="ml-4">
-            <p className="font-semibold text-sm text-gray-400">
-              rajapuri, uttam nagar, New delhi - 110059,
+            <p className="font-semibold text-sm my-2 text-gray-400">
+              USA +1 650 239 6404
             </p>
-            <p className="font-semibold text-sm text-gray-400"> Delhi India</p>
+
             <p className="font-semibold text-sm text-gray-400">
-              +91 74250 81690
+              India +91 6377801694
             </p>
           </div>
         </div>

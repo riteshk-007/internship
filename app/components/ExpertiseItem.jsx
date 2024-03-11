@@ -10,22 +10,24 @@ const ShortFormVideoEditing = () => {
   return (
     <div className=" py-12">
       <div className="container mx-auto">
-        <h1 className="text-3xl font-semibold text-white mb-6">
-          SHORT-FORM VIDEO EDITING
+        <h1 className="text-3xl font-semibold text-white mb-6 uppercase">
+          short form content
         </h1>
-        <p className="text-gray-400 mb-8">Videos, Just Videos.</p>
-        <p className="text-gray-400 mb-8">
-          We do one thing - we just do it with a laser focus and better than
-          anyone else. If you&apos;re looking for an agency that gets lost in a
+        <p className="text-gray-400 mb-8">just videos , just videos </p>
+        <p className="text-gray-400 mb-3">
+          we do one thing - we just do it with a laser focus and bette than
+          anyone else If you&apos;re looking for an agency that gets lost in a
           sea of services without excelling in any, we&apos;re not for you.
         </p>
-        <p className="text-gray-400 mb-8">
+        <p className="text-gray-400 mb-5">
           If you want a partner that zeroes in on impactful, scroll-stopping
           video content that speaks volumes in mere seconds and shows clear ROI,
           welcome to Conture.
         </p>
         <button className="bg-[#ff1491c7] text-white px-4 py-2 rounded-lg hover:bg-[#FF1493]">
-          Elevate Your Brand&apos;s Story
+          <a href="https://calendly.com/auditmeet/30min?month=2024-03">
+            Elevate Your Brand&apos;s Story
+          </a>
         </button>
         <p className="text-gray-400 mt-4">
           Schedule Your FREE Strategy Call Now
