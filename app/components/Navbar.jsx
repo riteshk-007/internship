@@ -74,7 +74,8 @@ const Navbar = () => {
               <li>
                 <Link
                   href="/"
-                  className="block py-2    rounded md:bg-transparent md:text-gray-700 md:p-0 md:dark:text-gray-500"
+                  className="block py-2 rounded md:bg-transparent md:text-gray-700 md:p-0 md:dark:text-gray-500"
+                  onClick={() => setIsOpen(false)}
                 >
                   Home
                 </Link>
@@ -82,7 +83,8 @@ const Navbar = () => {
               <li>
                 <Link
                   href="/price"
-                  className="block py-2  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-500 md:p-0 md:dark:hover:text-gray-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  className="block py-2 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-500 md:p-0 md:dark:hover:text-gray-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  onClick={() => setIsOpen(false)}
                 >
                   Price
                 </Link>
@@ -114,6 +116,7 @@ const Navbar = () => {
                         <li>
                           <Link
                             href="/faq"
+                            onClick={() => setIsOpen(false)}
                             className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                           >
                             FAQ
@@ -122,6 +125,7 @@ const Navbar = () => {
                         <li>
                           <Link
                             href="/blogs"
+                            onClick={() => setIsOpen(false)}
                             className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                           >
                             Blogs
@@ -130,6 +134,7 @@ const Navbar = () => {
                         <li>
                           <Link
                             href="/book"
+                            onClick={() => setIsOpen(false)}
                             className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                           >
                             Get E-Book
@@ -139,6 +144,7 @@ const Navbar = () => {
                       <div className="py-1">
                         <Link
                           href="/"
+                          onClick={() => setIsOpen(false)}
                           className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
                         >
                           More Services &rarr;
@@ -151,6 +157,7 @@ const Navbar = () => {
               <li>
                 <Link
                   href="/contact"
+                  onClick={() => setIsOpen(false)}
                   className="block py-2  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-500 md:p-0 md:dark:hover:text-gray-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Contact
