@@ -40,6 +40,7 @@ const Price = () => {
       </div>
       <div className="w-full items-center justify-center my-2 flex-col space-y-5">
         <PriceCard />
+
         <TestimonalCards />
       </div>
     </div>

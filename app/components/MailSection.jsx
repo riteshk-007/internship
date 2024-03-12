@@ -17,7 +17,7 @@ const MailSection = () => {
   return (
     <div className="flex flex-col items-center justify-center w-full sm:w-auto">
       <p className="font-semibold text-sm text-gray-400 my-2">
-        Get a free E-Book
+        Get Your Free E-Book
       </p>
       {showSuccess ? (
         <div className="w-full mx-auto flex items-center justify-center p-2">
@@ -45,7 +45,7 @@ const MailSection = () => {
             className="border border-gray-700"
             variant="default"
             type="submit"
-            text={state.submitting ? " Sending..." : "Get E-Book"}
+            text={state.submitting ? " Sending..." : "Submit"}
           />
         </form>
       )}

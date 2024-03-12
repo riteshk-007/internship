@@ -3,7 +3,7 @@ import SecondButton from "./secondButton";
 const PriceCard = () => {
   return (
     <section>
-      <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+      <div className="py-8 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
         <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white">
             Designed for business teams like yours
@@ -107,16 +107,16 @@ const PriceCard = () => {
             </a>
           </div>
         </div>
-        <div className="w-full flex flex-col items-center justify-center my-5 p-5 border-2 border-sky-700  shadow-lg rounded mx-auto">
-          <p className="text-lg font-semibold mb-4 text-center">
-            Get a Custom Quote for your project
+        <div className="w-full flex flex-col items-center justify-center my-5 md:p-5  mt-10 rounded mx-auto">
+          <p className=" text-center capitalize flex-wrap text-4xl sm:text-6xl lg:text-8xl p-2 md:p-4  font-bold from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent">
+            Get your Custom Quote
           </p>
           <a href="https://calendly.com/auditmeet/30min?month=2024-03">
-            <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
-              <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
-              <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
-                Get A Custom Quote
-              </span>
+            <button className="p-[3px] relative">
+              <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
+              <div className="px-8 py-2 text-lg md:text-xl uppercase font-bold bg-black rounded-[6px]  relative group transition duration-200 text-white hover:bg-transparent">
+                Request
+              </div>
             </button>
           </a>
         </div>
