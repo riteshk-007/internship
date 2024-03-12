@@ -4,17 +4,14 @@ import React from "react";
 const TeamMember = ({ name, title, image }) => (
   <div className="bg-gray-900 p-6 rounded-lg shadow-lg text-white hover:shadow-2xl transition duration-300 ease-in-out transform hover:scale-105">
     <Image
-      width={200}
-      height={200}
+      width={150}
+      height={150}
       src={image}
       alt={name}
-      className="w-full h-52 md:h-64 object-cover rounded-lg shadow-md"
+      className="w-full h-72 object-cover rounded-lg shadow-md"
     />
     <h3 className="text-base md:text-xl font-semibold mt-5">{name}</h3>
     <p className="text-gray-400">{title}</p>
-    <a href="#" className="text-[#FF1493] mt-2 hover:underline">
-      View Bio
-    </a>
   </div>
 );
 

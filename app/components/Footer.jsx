@@ -8,23 +8,11 @@ import {
   FaLinkedin,
   FaWhatsapp,
 } from "react-icons/fa6";
-import { useForm, ValidationError } from "@formspree/react";
-import { useState, useEffect } from "react";
+
 import Button from "./Button";
 import { CgYoutube } from "react-icons/cg";
 
 export default function Footer() {
-  const [state, handleSubmit] = useForm("mayrjgkz");
-  const [showSuccess, setShowSuccess] = useState(false);
-  useEffect(() => {
-    if (state.succeeded) {
-      setShowSuccess(true);
-      setTimeout(() => {
-        setShowSuccess(false);
-      }, 5000);
-    }
-  }, [state.succeeded]);
-
   return (
     <footer className="bg-black text-white py-8">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-wrap justify-between items-center">
@@ -80,40 +68,9 @@ export default function Footer() {
           <p className="font-semibold text-sm text-gray-400 my-2">
             Book Your Session With Conture
           </p>
-          {showSuccess ? (
-            <div className="w-full mx-auto flex items-center justify-center p-2">
-              <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative">
-                <strong className="font-bold">Success!</strong>
-                <span className="block sm:inline">
-                  Your message has been sent successfully.
-                </span>
-              </div>
-            </div>
-          ) : (
-            <form
-              onSubmit={handleSubmit}
-              className="flex items-center justify-center w-full flex-col space-y-2"
-            >
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="p-2 border border-gray-300 w-full  rounded text-black bg-gray-200"
-                required
-                name="email"
-              />
-              <ValidationError
-                prefix="email"
-                field="email"
-                errors={state.errors}
-              />
-              <Button
-                className="border border-gray-700 w-full md:w-1/2"
-                variant="default"
-                type="submit"
-                text={state.submitting ? "Booking..." : "Book Session"}
-              />
-            </form>
-          )}
+          <a href="https://calendly.com/auditmeet/30min?month=2024-03">
+            <Button variant="default" text="Book Session" className="w-full" />
+          </a>
         </div>
       </div>
 
