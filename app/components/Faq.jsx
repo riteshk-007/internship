@@ -13,8 +13,7 @@ const FaqCard = ({ numQuestions }) => {
         "Yes, you’ll need to film the content. However, we&apos;ll guide you on shooting techniques tailored to your specific requirements.",
     },
     {
-      trigger:
-        "What&apos;s the editing turnaround for a single short-form video?",
+      trigger: "What's the editing turnaround for a single short-form video?",
       content:
         "We typically edit and deliver a single video within 1-2 days. For bulk orders exceeding 20 videos, we guarantee a maximum 2-week delivery.",
     },

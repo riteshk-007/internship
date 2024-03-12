@@ -34,7 +34,7 @@ const Contactform = () => {
         className="relative h-[350px] overflow-hidden bg-cover bg-[50%] bg-no-repeat"
       >
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d925134.3210715873!2d54.568041327437584!3d25.0745656650172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1710061283002!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60924485.415671155!2d54.55272035376464!3d21.250260899922907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3663f18a24cbe857%3A0xa9416bfcd3a0f459!2sAsia!5e0!3m2!1sen!2sin!4v1710246311482!5m2!1sen!2sin"
           width="100%"
           height={480}
           style={{ border: 0 }}

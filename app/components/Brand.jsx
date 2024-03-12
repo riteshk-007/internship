@@ -91,7 +91,7 @@ const BrandsThatChooseConture = () => {
           Brands
         </h1>
         <Moving items={brands} direction="right" speed="slow" />
-        <h1 className="text-4xl font-bold mb-4 text-center text-white">
+        <h1 className="text-4xl font-bold my-4 text-center text-white">
           Creators
         </h1>
         <Moving items={creator} direction="left" speed="slow" />
