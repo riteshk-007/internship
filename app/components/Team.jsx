@@ -6,7 +6,7 @@ const TeamMember = ({ name, title, image }) => (
     <Image
       width={150}
       height={150}
-      src={image}
+      src={"/" + encodeURIComponent(image.slice(1))}
       alt={name}
       className="w-full h-72 object-cover rounded-lg shadow-md"
     />
@@ -23,7 +23,7 @@ const OurTeam = () => {
         <TeamMember
           name="Manthan Gupta"
           title="Founder and Operations Executive"
-          image="/manthan Gupta.jpg"
+          image="/ManthanGupta.jpg"
         />
         <TeamMember
           name="Asia Gabriella"
