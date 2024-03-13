@@ -116,7 +116,7 @@ export default function Footer() {
             <CgYoutube size={18} />
           </a> */}
           <a
-            href="mailto:Business@conturemedia.com"
+            href="mailto:Business@conturemedia.com?subject=I'm%20interested%20in%20your%20services&body=Hi%20Conture%20Media%2C%0A%0AI%20am%20interested%20in%20your%20services.%20Please%20contact%20me%20back."
             target="_blank"
             rel="noopener noreferrer"
             className="block  text-white p-1 transition-colors duration-300 ease-in-out"

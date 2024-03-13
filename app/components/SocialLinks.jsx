@@ -46,7 +46,7 @@ const SocialLinks = () => {
         <FaLinkedin size={16} />
       </a>
       <a
-        href="mailto:Business@conturemedia.com"
+        href="mailto:Business@conturemedia.com?subject=I'm%20interested%20in%20your%20services&body=Hi%20Conture%20Media%2C%0A%0AI%20am%20interested%20in%20your%20services.%20Please%20contact%20me%20back."
         target="_blank"
         rel="noopener noreferrer"
         className="block border-2 border-gray-400 text-white rounded-full p-1 hover:bg-red-600 hover:text-gray-100 transition-colors duration-300 ease-in-out"
