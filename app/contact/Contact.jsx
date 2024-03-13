@@ -59,7 +59,7 @@ const Contactform = () => {
                     id="exampleInput90"
                     type="text"
                     name="name"
-                    placeholder=""
+                    placeholder="Name"
                     required
                   />
 
@@ -118,7 +118,7 @@ const Contactform = () => {
                   type="submit"
                   className="w-full bg-pink-500 dark:bg-pink-600 text-white  py-3 rounded-md hover:bg-pink-500 transition-all duration-200 ease-linear focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-neutral-100 focus:ring-opacity-50"
                 >
-                  send message
+                  Send Message
                 </button>
               </form>
             </div>
@@ -148,7 +148,7 @@ const Contactform = () => {
                       <p className="mb-2 font-bold text-sm ">
                         Technical support
                       </p>
-                      <p className="text-sm ">conture@gmail.com</p>
+                      <p className="text-sm "> Business@conturemedia.com</p>
                     </div>
                   </div>
                 </div>
@@ -173,11 +173,10 @@ const Contactform = () => {
                       </div>
                     </div>
                     <div className="ml-6 grow text-gray-300">
-                      <p className="mb-2 font-bold text-sm ">Address</p>
+                      <p className="mb-2 font-bold text-sm "></p>
                       <p className="text-xs text-gray-300">
-                        New York City, 1234 - 5678 - 90
-                        <br />
-                        United States
+                        Global Service Provider Available to Everyone in the
+                        world.
                       </p>
                     </div>
                   </div>
@@ -205,7 +204,11 @@ const Contactform = () => {
                     </div>
                     <div className="ml-6 grow text-gray-300">
                       <p className="mb-2 font-bold text-sm ">Mobile</p>
-                      <p className="text-gray-300 text-xs"> +91 74250 81690</p>
+                      <p className="mb-2 font-bold text-xs ">
+                        USA +1 650 239 6404
+                        <br />
+                        India +91 6377801694
+                      </p>
                     </div>
                   </div>
                 </div>

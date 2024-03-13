@@ -6,11 +6,11 @@ const PriceCard = () => {
       <div className="py-8 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
         <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white">
-            Designed for business teams like yours
+            Designed for Visionary Brands And Creators Like You.
           </h2>
           <p className="mb-5 font-light  sm:text-xl text-gray-400">
-            Here at Flowbite we focus on markets where technology, innovation,
-            and capital can unlock long-term value and drive economic growth.
+            Here at Conture we focus on brand’s and creator’s marketing vision
+            and innovation that can lead to their growth at the finest level.
           </p>
         </div>
         <div className="space-y-8 lg:grid lg:grid-cols-3 sm:grid sm:grid-cols-1 md:grid-cols-2 sm:gap-6 xl:gap-10 lg:space-y-0">
@@ -112,9 +112,9 @@ const PriceCard = () => {
             Get your Custom Quote
           </p>
           <a href="https://calendly.com/auditmeet/30min?month=2024-03">
-            <button className="p-[3px] relative">
+            <button className="p-[3px] relative my-8 md:my-4">
               <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
-              <div className="px-8 py-2 text-lg md:text-xl uppercase font-bold bg-black rounded-[6px]  relative group transition duration-200 text-white hover:bg-transparent">
+              <div className="px-8 py-2  text-lg md:text-xl uppercase font-bold bg-black rounded-[6px]  relative group transition duration-200 text-white hover:bg-transparent">
                 Request
               </div>
             </button>

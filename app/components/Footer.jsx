@@ -2,15 +2,10 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import {
-  FaFacebook,
-  FaInstagram,
-  FaLinkedin,
-  FaWhatsapp,
-} from "react-icons/fa6";
+import { FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa6";
 
 import Button from "./Button";
-import { CgYoutube } from "react-icons/cg";
+import { IoIosMail } from "react-icons/io";
 
 export default function Footer() {
   return (
@@ -77,17 +72,17 @@ export default function Footer() {
       {/* Copyright */}
       <div className="text-center flex flex-col sm:flex-row items-center justify-evenly mt-8 border-t border-gray-500 p-5">
         <p variant="caption" className="text-gray-500 mb-4 sm:mb-0">
-          © 2024 Feel Right Inc. All Rights Reserved.
+          © 2024 Conture Media. All Rights Reserved.
         </p>
         <div className="flex justify-center space-x-4">
-          <a
+          {/* <a
             href="https://www.facebook.com/profile.php?id=61556161540988"
             target="_blank"
             rel="noopener noreferrer"
             className="block  text-white p-1 transition-colors duration-300 ease-in-out"
           >
             <FaFacebook size={18} />
-          </a>
+          </a> */}
           <a
             href="https://www.linkedin.com/company/conture-media/"
             target="_blank"
@@ -112,13 +107,21 @@ export default function Footer() {
           >
             <FaInstagram size={18} />
           </a>
-          <a
+          {/* <a
             href="https://www.youtube.com/watch?v=0M_7Ugj4lEg"
             target="_blank"
             rel="noopener noreferrer"
             className="block  text-white p-1 transition-colors duration-300 ease-in-out"
           >
             <CgYoutube size={18} />
+          </a> */}
+          <a
+            href="mailto:Business@conturemedia.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block  text-white p-1 transition-colors duration-300 ease-in-out"
+          >
+            <IoIosMail size={16} />
           </a>
         </div>
       </div>

@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className="h-auto md:h-screen w-full bg-black relative flex flex-col lg:flex-row items-center justify-center antialiased p-5">
       <div className="mx-auto p-4 mt-5 md:mt-0 flex-1">
-        <h1 className="relative z-10 text-xl md:text-3xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600 text-center font-sans font-bold leading-snug tracking-wide">
+        <h1 className="relative z-10   uppercase bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text font-sans font-bold text-2xl md:text-3xl text-center">
           Dominate the short form content agency with conture media
         </h1>
         <p className="text-gray-300 capitalize mx-auto my-4 text-xs md:text-base text-center relative z-10 leading-relaxed tracking-normal">
