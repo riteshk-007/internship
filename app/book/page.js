@@ -1,7 +1,11 @@
 import React from "react";
 import MailSection from "../components/MailSection";
 import Image from "next/image";
-
+export const metadata = {
+  title: "E-Book",
+  description:
+    "Grab your free e-book now and unlock the secrets to making your content and videos go viral in the marketing world!",
+};
 const EBook = () => {
   return (
     <div
