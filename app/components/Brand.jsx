@@ -83,7 +83,7 @@ const BrandsThatChooseConture = () => {
 
   return (
     <div className="py-12">
-      <h2 className="text-2xl font-bold mb-4">
+      <h2 className=" md:text-2xl font-bold mb-4 text-center md:text-left">
         Brands And Creators That Choose Conture
       </h2>
       <div className=" rounded-md flex flex-col antialiased  items-center justify-center relative ">

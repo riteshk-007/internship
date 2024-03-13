@@ -145,10 +145,14 @@ const Contactform = () => {
                       </div>
                     </div>
                     <div className="ml-6 grow text-gray-300">
-                      <p className="mb-2 font-bold text-sm ">
+                      <p className="mb-2 font-bold text-base ">
                         Technical support
                       </p>
-                      <p className="text-sm "> Business@conturemedia.com</p>
+                      <p className="text-sm ">
+                        Business@conturemedia.com
+                        <br />
+                        contureai1@gmail.com
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -173,7 +177,7 @@ const Contactform = () => {
                       </div>
                     </div>
                     <div className="ml-6 grow text-gray-300">
-                      <p className="mb-2 font-bold text-sm "></p>
+                      <p className="mb-2 font-bold text-base ">Location</p>
                       <p className="text-xs text-gray-300">
                         Global Service Provider Available to Everyone in the
                         world.
@@ -203,7 +207,7 @@ const Contactform = () => {
                       </div>
                     </div>
                     <div className="ml-6 grow text-gray-300">
-                      <p className="mb-2 font-bold text-sm ">Mobile</p>
+                      <p className="mb-2 font-bold text-base ">Mobile</p>
                       <p className="mb-2 font-bold text-xs ">
                         USA +1 650 239 6404
                         <br />

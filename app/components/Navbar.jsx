@@ -50,7 +50,7 @@ const Navbar = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button text="Get Started" />
+                <Button text="Connect" />
               </a>
             </div>
             <button
@@ -122,22 +122,14 @@ const Navbar = () => {
                             FAQ
                           </Link>
                         </li>
-                        <li>
-                          <Link
-                            href="/blogs"
-                            onClick={() => setIsOpen(false)}
-                            className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                          >
-                            Blogs
-                          </Link>
-                        </li>
+
                         <li>
                           <Link
                             href="/book"
                             onClick={() => setIsOpen(false)}
                             className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                           >
-                            Get E-Book
+                            Get Free E-Book
                           </Link>
                         </li>
                       </ul>

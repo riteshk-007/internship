@@ -22,11 +22,11 @@ const StrategySessionIdealFor = () => {
           <IdealForItem description="Organizations eager to outperform competitors with concise content that delivers a punch and drives results." />
           <IdealForItem description="Leaders looking for a creative agency that will elevate their brand with exceptional video editing craftsmanship." />
         </ul>
-        <button className="bg-[#ff1491c7] text-white px-4 py-2 rounded-lg mt-8 hover:bg-[#FF1493]">
-          <a href="https://calendly.com/auditmeet/30min?month=2024-03">
-            Book Your Complimentary Video Strategy Call Today
-          </a>
-        </button>
+        <a href="https://calendly.com/auditmeet/30min?month=2024-03">
+          <button className="bg-[#ff1491c7] text-white px-4 py-2 rounded-lg mt-8 hover:bg-[#FF1493]">
+            Book Your Complimentary Video Consultation Call Today
+          </button>
+        </a>
       </div>
     </div>
   );

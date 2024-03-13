@@ -39,11 +39,11 @@ const ImpactInMotion = () => {
           Our mantra: Crafting bespoke content that captivates and converts.
           Quality over quantity. Let&apos;s talk!
         </p>
-        <button className="bg-[#ff1491c7] text-white px-4 capitalize py-2 rounded-lg mt-4 hover:bg-[#FF1493]">
-          <a href="https://calendly.com/auditmeet/30min?month=2024-03">
+        <a href="https://calendly.com/auditmeet/30min?month=2024-03">
+          <button className="bg-[#ff1491c7] text-white px-4 capitalize py-2 rounded-lg mt-4 hover:bg-[#FF1493]">
             Book your free audit consultation call today
-          </a>
-        </button>
+          </button>
+        </a>
       </div>
     </div>
   );

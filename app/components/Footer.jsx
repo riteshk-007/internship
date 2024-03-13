@@ -100,7 +100,7 @@ export default function Footer() {
             <FaWhatsapp size={18} />
           </a>
           <a
-            href="https://www.instagram.com/conture.ai"
+            href="https://www.instagram.com/conture_media"
             target="_blank"
             rel="noopener noreferrer"
             className="block  text-white p-1 transition-colors duration-300 ease-in-out"

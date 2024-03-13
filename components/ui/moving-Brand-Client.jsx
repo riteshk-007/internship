@@ -62,10 +62,7 @@ export const Moving = ({
   return (
     <div
       ref={containerRef}
-      className={cn(
-        "scroller relative z-20  max-w-7xl overflow-hidden",
-        className
-      )}
+      className={cn("scroller relative z-20  overflow-hidden", className)}
     >
       <ul
         ref={scrollerRef}

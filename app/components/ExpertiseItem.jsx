@@ -1,7 +1,7 @@
 import React from "react";
 
 const ExpertiseItem = ({ title }) => (
-  <div className="bg-gray-800 p-4 rounded-lg shadow-lg text-white mb-4 text-left hover:shadow-2xl transition duration-300 ease-in-out transform hover:scale-105">
+  <div className="bg-gray-800 p-4 rounded-lg shadow-lg font-bold text-white mb-4 text-left hover:shadow-2xl transition duration-300 ease-in-out transform hover:scale-105">
     {title}
   </div>
 );
