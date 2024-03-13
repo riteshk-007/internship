@@ -23,7 +23,7 @@ const OurTeam = () => {
         <TeamMember
           name="Manthan Gupta"
           title="Founder and Operations Executive"
-          image="/ManthanGupta.jpg"
+          image="/ManthanGupta.JPG"
         />
         <TeamMember
           name="Asia Gabriella"
